@@ -3,6 +3,7 @@
 set -euo pipefail
 
 K_REPO="https://download.konghq.com/mesh-alpine"
+GH_REPO="https://github.com/kumahq/kuma"
 TOOL_NAME="kumactl"
 TOOL_TEST="kumactl help"
 
@@ -66,7 +67,7 @@ download_release() {
 install_version() {
   local install_type="$1"
   local version="$2"
-  local install_path="$3/bin"
+  local install_path="$3/kuma-${version}/bin"
 
   if [ "$install_type" != "version" ]; then
     fail "asdf-$TOOL_NAME supports release installs only"
