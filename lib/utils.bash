@@ -9,7 +9,6 @@ TOOL_TEST="kumactl help"
 
 fail() {
   echo -e "asdf-$TOOL_NAME: $*"
-  sleep 3600
   exit 1
 }
 
@@ -82,6 +81,7 @@ install_version() {
     test -x "$install_path/$tool_cmd" || fail "Expected $install_path/$tool_cmd to be executable."
 
     echo "$TOOL_NAME $version installation was successful!"
+    sleep 3600
   ) || (
     rm -rf "$install_path"
     fail "An error ocurred while installing $TOOL_NAME $version."
