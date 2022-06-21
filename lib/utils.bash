@@ -34,6 +34,7 @@ get_platform() {
   platform=$(uname)
   case $platform in
   Darwin) platform="darwin" ;;
+  Linux) platform="ubuntu" ;;
   esac
   echo "$platform"
 }
