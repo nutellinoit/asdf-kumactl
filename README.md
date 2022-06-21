@@ -1,6 +1,6 @@
 <div align="center">
 
-# asdf-kumactl [![Build](https://github.com/nutellinoit/asdf-kumactl/actions/workflows/build.yml/badge.svg)](https://github.com/nutellinoit/asdf-deck/actions/workflows/build.yml) [![Lint](https://github.com/nutellinoit/asdf-deck/actions/workflows/lint.yml/badge.svg)](https://github.com/nutellinoit/asdf-deck/actions/workflows/lint.yml)
+# asdf-kumactl [![Build](https://github.com/nutellinoit/asdf-kumactl/actions/workflows/build.yml/badge.svg)](https://github.com/nutellinoit/asdf-kumactl/actions/workflows/build.yml) [![Lint](https://github.com/nutellinoit/asdf-kumactl/actions/workflows/lint.yml/badge.svg)](https://github.com/nutellinoit/asdf-kumactl/actions/workflows/lint.yml)
 
 
 [kumactl](https://kuma.io) plugin for the [asdf version manager](https://asdf-vm.com).
